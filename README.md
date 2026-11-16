@@ -1,18 +1,23 @@
-# 💻 Assignment Boilerplate
+# 💻 The White Stripes "Elephant" Liner Notes
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration,
-and a pull request template so every assignment works the same way.
+Starter files for a CSS coding exercise. The HTML for a liner notes page about **Elephant**, the 2003 album by
+The White Stripes, is already written. Your job is to write the stylesheet that makes it look like the finished
+design, using only the album's three colors: red, white, and black.
+
+Open `index.html` in the browser now and it will look plain. That's the starting point. Every change from here
+happens in your CSS file.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
-> folders are setup files that keep assignments consistent. Leave them alone.
+> folders are setup files that keep assignments consistent. Leave them alone. `index.html` and the `images` folder
+> are your starter files.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](.github/ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit.
+It has the overview, the requirements, the grading criteria, and a final checklist. Read it before you start, and check it again before you submit.
 
 ## ✅ At a Glance
 
@@ -22,17 +27,26 @@ Every assignment follows the same steps. Each guide has screenshots for every st
 |------|----------------------------------------------------------------------------|-----------------------------------------------|
 | 0    | **First assignment only:** install and set up WebStorm                     | [WebStorm Setup](.github/WEBSTORM_SETUP.md)   |
 | 1    | Create your repo from this template, clone it, and make a `develop` branch | [Getting Started](.github/GETTING_STARTED.md) |
-| 2    | Build your page in the root folder                                         | [Where Your Files Go](#-where-your-files-go)  |
+| 2    | Create `css/style.css` and style the starter page                          | [Where Your Files Go](#-where-your-files-go)  |
 | 3    | Commit and push often, then turn on GitHub Pages                           | [Publishing](.github/PUBLISHING.md)           |
 | 4    | Open a pull request into `main` and submit its URL in Canvas               | [Submitting](.github/SUBMITTING.md)           |
 
 ## 📂 Where Your Files Go
 
-Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into
-subfolders:
+`index.html` and the album art are already in place. Create a `css` folder in the root, and a `style.css` file
+inside it. **Do not rename or move the starter files.** When you are finished, your repo should look like this:
 
-<img src=".github/images/webstorm-project-files.png" alt="The WebStorm Project panel showing index.html in the root folder, with css/style.css, images/photo.jpg, and js/script.js in their own subfolders, all highlighted" width="350">
+```
+index.html
+css/
+    style.css
+images/
+    album-art.webp
+    final.png
+```
+
+`index.html` stays in the root folder, the same folder as this README. GitHub Pages publishes from the root, so
+your site will 404 without it. `images/final.png` is a screenshot of the finished page. Use it as your target.
 
 ## 🤖 AI Policy
 
