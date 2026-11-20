@@ -1,9 +1,9 @@
 # 📄 The White Stripes "Elephant" Liner Notes
 
+## 🎯 Overview
+
 Style a finished HTML page about The White Stripes' *Elephant* so it matches a design, using
 only an external stylesheet.
-
-## 🎯 Overview
 
 Every White Stripes record uses the same three colors: red, white, and black. In this
 exercise, you will bring that look to a liner notes page for their 2003 album **Elephant**.
@@ -16,9 +16,7 @@ footer. Your job is to write `css/style.css` so the page matches the screenshot 
 You are matching a design, not copying it pixel for pixel. Your colors, sizes, and spacing
 should be close enough that someone looking at both would call them the same page.
 
-## 🧠 What You Will Learn
-
-By completing this exercise, you will practice how to:
+### 🧠 What You'll Practice
 
 - Create an external stylesheet and link it to a page
 - Select elements by type, by `id`, by class, and by where they sit in the page
@@ -29,28 +27,9 @@ By completing this exercise, you will practice how to:
 - Restyle lists and description lists, and remove browser default spacing
 - Style a link and a quotation
 
-## 🖼️ Example Output
+## 📋 Requirements
 
-![The finished Elephant liner notes page: a black header with a red stripe under it, the red album cover, a bordered About the Album box with a black quote box, a tracklist of bordered rows with the lead single in red, a bordered Credits box, the singles list, and a black footer](../images/final.png)
-
-The screenshot is the page at a desktop width. On a phone, the column should fill the
-screen with a little space on each side, and the album cover should shrink to fit.
-
-## 📂 Starter Files
-
-| File | Purpose |
-| --- | --- |
-| `index.html` | The finished HTML. You only add a `link` to your stylesheet, plus any `class` attributes you choose to use. |
-| `images/album-art.webp` | The album cover. Already in the page. |
-| `images/final.png` | A screenshot of the finished page. Your target. Don't add it to the page. |
-| `css/style.css` | **You create this.** All of your CSS goes here. |
-
-> [!IMPORTANT]
-> Don't change the text or the elements in `index.html`. You may add a `link` in the `head`
-> and `class` attributes to elements. Everything else, including every color and size,
-> belongs in `css/style.css`. No `style` attributes and no `<style>` element.
-
-## 🎨 Style Guide
+### 🎨 Style Guide
 
 | Use | What it looks like |
 | --- | --- |
@@ -59,8 +38,6 @@ screen with a little space on each side, and the album cover should shrink to fi
 | White | The page background and the text on black or red. |
 | Font | A clean sans-serif, such as Inter from Google Fonts, or `Arial, Helvetica, sans-serif`. |
 | Column | About `600px` wide at most, centered on the page. |
-
-## 📋 Requirements
 
 ### Setup
 
@@ -115,6 +92,43 @@ screen with a little space on each side, and the album cover should shrink to fi
 - [ ] The singles stay a plain numbered list, with no boxes
 - [ ] Each release date is red, not bold, with space between it and the song title
 
+### ✅ Before You Submit
+
+Check the following:
+
+- [ ] You put your live page and `images/final.png` side by side and compared every section
+- [ ] The header and footer touch both edges of the window, with no white gap
+- [ ] You made the window narrow, and the album cover shrank to fit with no sideways scrolling
+- [ ] The lead single's time is white, not red
+- [ ] Every color on the page is red, white, or black
+- [ ] `css/style.css` passes the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+      with no errors
+- [ ] `index.html` still passes the [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+      with no errors
+- [ ] You saved all of your files
+- [ ] The site is live on GitHub Pages, it has your styles, and the URL is in your pull request
+
+## 🖼️ Example Output
+
+![The finished Elephant liner notes page: a black header with a red stripe under it, the red album cover, a bordered About the Album box with a black quote box, a tracklist of bordered rows with the lead single in red, a bordered Credits box, the singles list, and a black footer](../images/final.png)
+
+The screenshot is the page at a desktop width. On a phone, the column should fill the
+screen with a little space on each side, and the album cover should shrink to fit.
+
+## 📂 Starter Files
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | The finished HTML. You only add a `link` to your stylesheet, plus any `class` attributes you choose to use. |
+| `images/album-art.webp` | The album cover. Already in the page. |
+| `images/final.png` | A screenshot of the finished page. Your target. Don't add it to the page. |
+| `css/style.css` | **You create this.** All of your CSS goes here. |
+
+> [!IMPORTANT]
+> Don't change the text or the elements in `index.html`. You may add a `link` in the `head`
+> and `class` attributes to elements. Everything else, including every color and size,
+> belongs in `css/style.css`. No `style` attributes and no `<style>` element.
+
 ## 🧮 Grading
 
 | Criteria | What earns full credit | Points |
@@ -134,25 +148,21 @@ Close counts. A slightly different red, a border that's `3px` instead of `4px`, 
 that's a little off still earns full credit. A missing style, a color outside red, white,
 and black, or a part of the page that clearly doesn't match the screenshot does not.
 
-## ✅ Before You Submit
+## 📚 Resources
 
-Check the following:
+- [MDN — CSS basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content)
+- [MDN — CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
+- [MDN — The box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model)
+- [MDN — Styling lists](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists)
+- [MDN — `list-style-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position)
+- [Google Fonts — Inter](https://fonts.google.com/specimen/Inter)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-- [ ] You put your live page and `images/final.png` side by side and compared every section
-- [ ] The header and footer touch both edges of the window, with no white gap
-- [ ] You made the window narrow, and the album cover shrank to fit with no sideways scrolling
-- [ ] The lead single's time is white, not red
-- [ ] Every color on the page is red, white, or black
-- [ ] `css/style.css` passes the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-      with no errors
-- [ ] `index.html` still passes the [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
-      with no errors
-- [ ] You saved all of your files
-- [ ] The site is live on GitHub Pages, it has your styles, and the URL is in your pull request
+## 🆘 Getting Help
 
-## 🛠️ Troubleshooting
+Ask during class or office hours, or post on the Canvas discussion board.
 
-If something is not working, check these common issues first:
+Before you ask, check these common problems:
 
 - **None of your styles show up?** Check the `link` in the `head`. It needs
   `rel="stylesheet"`, and its `href` must be `css/style.css`, letter for letter. Make sure
@@ -170,16 +180,6 @@ If something is not working, check these common issues first:
   ones that need it, or look up `:nth-of-type()` on MDN.
 - **A rule isn't working?** Check for a missing `;`, `:`, or `}`. One missing character
   can break every rule after it. The CSS validator will point to the line.
-
-## 📚 Resources
-
-- [MDN — CSS basics](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content)
-- [MDN — CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
-- [MDN — The box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model)
-- [MDN — Styling lists](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists)
-- [MDN — `list-style-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position)
-- [Google Fonts — Inter](https://fonts.google.com/specimen/Inter)
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ---
 

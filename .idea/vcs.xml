@@ -17,15 +17,15 @@
         </IssueNavigationLink>
         <IssueNavigationLink>
           <option name="issueRegexp" value="\(#(\d+)\)" />
-          <option name="linkRegexp" value="https://github.com/amec-ucba/ws-elephant-linear-notes/issues/$1" />
+          <option name="linkRegexp" value="https://github.com/amec-ucba/ws-elephant-liner-notes/issues/$1" />
         </IssueNavigationLink>
         <IssueNavigationLink>
           <option name="issueRegexp" value="#(\d+)" />
-          <option name="linkRegexp" value="https://github.com/amec-ucba/ws-elephant-linear-notes/issues/$1" />
+          <option name="linkRegexp" value="https://github.com/amec-ucba/ws-elephant-liner-notes/issues/$1" />
         </IssueNavigationLink>
         <IssueNavigationLink>
           <option name="issueRegexp" value="GH-(\d+)" />
-          <option name="linkRegexp" value="https://github.com/amec-ucba/ws-elephant-linear-notes/issues/$1" />
+          <option name="linkRegexp" value="https://github.com/amec-ucba/ws-elephant-liner-notes/issues/$1" />
         </IssueNavigationLink>
         <IssueNavigationLink>
           <option name="issueRegexp" value="([^/\n\s]+/[^#\n\s]+)#(\d+)" />
