@@ -134,15 +134,15 @@ screen with a little space on each side, and the album cover should shrink to fi
 | Criteria | What earns full credit | Points |
 | --- | --- | --- |
 | **Setup** | `css/style.css` is linked in the `head` and loads on the live site; no `style` attributes or `<style>` element; the HTML's text and elements are unchanged. | 1 |
-| **Whole page** | No default `body` margin; a sans-serif font; `main` is a centered column about `600px` wide at most with space on small screens; every `h2` is red. | 2 |
-| **Header and footer** | Black header with white centered text and inner space; letter-spaced uppercase band name; thick red stripe under the header; black footer with small white centered text. | 2 |
+| **Whole page** | No default `body` margin; a sans-serif font; `main` is a centered column about `600px` wide at most with space on small screens; every `h2` is red. | 3 |
+| **Header and footer** | Black header with white centered text and inner space; letter-spaced uppercase band name; thick red stripe under the header; black footer with small white centered text. | 3 |
 | **Album cover** | The image fits the column and keeps its shape at any width; no extra `figure` indent; small caption under the image. | 1 |
-| **About the Album** | Bordered box with inner space; red underlined link; black `blockquote` with bold white text, red left bar, and inner space; `cite` on its own line in italics. | 3 |
-| **Tracklist** | Each track is a bordered box with inner space and a gap between boxes; numbers inside the boxes; red bold times with space before them; the lead single is red with white text. | 3 |
+| **About the Album** | Bordered box with inner space; red underlined link; black `blockquote` with bold white text, red left bar, and inner space; `cite` on its own line in italics. | 4 |
+| **Tracklist** | Each track is a bordered box with inner space and a gap between boxes; numbers inside the boxes; red bold times with space before them; the lead single is red with white text. | 4 |
 | **Credits** | Bordered box matching *About the Album*; bold roles; names under their roles with no indent; space between pairs. | 1 |
 | **Singles** | A plain numbered list with red, non-bold dates and space before them. | 1 |
 | **Published and submitted** | GitHub Pages site is live and loads correctly with its styles; pull request into `main` is open with the live URL in the description; PR URL submitted in Canvas. | 1 |
-| **Total** |  | **15** |
+| **Total** |  | **19** |
 
 Close counts. A slightly different red, a border that's `3px` instead of `4px`, or spacing
 that's a little off still earns full credit. A missing style, a color outside red, white,
