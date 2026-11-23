@@ -36,20 +36,31 @@ should be close enough that someone looking at both would call them the same pag
 | Red | A strong, true red. Used for headings, track times, the lead single, the quote's edge, the link, and the stripe under the header. |
 | Black | A near-black. Used for the header, footer, quote box, and borders. |
 | White | The page background and the text on black or red. |
-| Font | A clean sans-serif, such as Inter from Google Fonts, or `Arial, Helvetica, sans-serif`. |
-| Column | About `600px` wide at most, centered on the page. |
+| Font | A clean sans-serif, such as Inter from Google Fonts (see [Loading Inter](#loading-inter) below), or `Arial, Helvetica, sans-serif`. |
+| Column | About `37.5rem` (600px) wide at most, centered on the page. Use `rem` for widths and spacing, and pixels only for borders. |
 
 ### Setup
 
 - [ ] `css/style.css` exists and is linked in the `head` of `index.html` with a `link` element
 - [ ] All styles are in `css/style.css`: no `style` attributes and no `<style>` element
-- [ ] The text and elements in `index.html` are unchanged (adding `class` attributes is fine)
+- [ ] The text and elements in `index.html` are unchanged (adding `class` attributes, and the
+      Inter `link` below, is fine)
+
+#### Loading Inter
+
+To use Inter, add this `link` in the `head`, right above the link to `css/style.css`:
+
+```html
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+```
+
+Then use `"Inter"` first in your `font-family`. You'll learn how Google Fonts works in Week 5.
 
 ### Whole page
 
 - [ ] The `body` has no default margin, so the header and footer touch the edges of the window
 - [ ] The page uses a sans-serif font
-- [ ] `main` is a centered column about `600px` wide at most, with space above and below,
+- [ ] `main` is a centered column about `37.5rem` wide at most, with space above and below,
       and a little space on each side on small screens
 - [ ] Every `h2` is red
 
@@ -134,7 +145,7 @@ screen with a little space on each side, and the album cover should shrink to fi
 | Criteria | What earns full credit | Points |
 | --- | --- | --- |
 | **Setup** | `css/style.css` is linked in the `head` and loads on the live site; no `style` attributes or `<style>` element; the HTML's text and elements are unchanged. | 1 |
-| **Whole page** | No default `body` margin; a sans-serif font; `main` is a centered column about `600px` wide at most with space on small screens; every `h2` is red. | 3 |
+| **Whole page** | No default `body` margin; a sans-serif font; `main` is a centered column about `37.5rem` wide at most with space on small screens; every `h2` is red. | 3 |
 | **Header and footer** | Black header with white centered text and inner space; letter-spaced uppercase band name; thick red stripe under the header; black footer with small white centered text. | 3 |
 | **Album cover** | The image fits the column and keeps its shape at any width; no extra `figure` indent; small caption under the image. | 1 |
 | **About the Album** | Bordered box with inner space; red underlined link; black `blockquote` with bold white text, red left bar, and inner space; `cite` on its own line in italics. | 4 |
